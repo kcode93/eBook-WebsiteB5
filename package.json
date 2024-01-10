@@ -4,7 +4,7 @@
   "description": "Bootstrap 5 landing page (practice)",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/resources/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/resources/css --output-style compressed --recursive"
   },
   "keywords": [
     "Bootstrap",

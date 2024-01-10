@@ -1,1 +1,28 @@
 //Nav Styles Here
+#main-navbar {
+	padding: 1rem 0;
+	color: $white;
+
+	.nav-item {
+		.nav-link {
+			color: $white;
+			&:hover {
+				color: $secondary;
+			}
+		}
+
+		&.btn {
+			&.btn-outline-secondary {
+				color: $white;
+				border: 1px solid white;
+				.nav-link {
+					color: $white;
+				}
+				&:hover {
+					color: $white;
+					border: 1px solid $dark;
+				}
+			}
+		}
+	}
+}
