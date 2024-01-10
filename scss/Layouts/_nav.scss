@@ -3,6 +3,16 @@
 	padding: 1rem 0;
 	color: $white;
 
+	.navbar-toggler,
+	.navbar-toggler-icon {
+		border-color: $secondary;
+		color: $secondary;
+	}
+
+	.navbar-nav {
+		margin-left: auto;
+	}
+
 	.nav-item {
 		.nav-link {
 			color: $white;
