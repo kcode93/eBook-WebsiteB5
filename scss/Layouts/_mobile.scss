@@ -2,7 +2,17 @@
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-	//Custom Styles HERE
+	#main-header {
+		.image-container {
+			margin-left: auto;
+			margin-right: auto;
+
+			img {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
 }
 
 // Medium devices (tablets, less than 992px)
@@ -11,12 +21,35 @@
 		.image-container {
 			margin-left: auto;
 			margin-right: auto;
+
+			img {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
+
+	#icons {
+		.icons-description {
+			margin: 0.5rem 0.5rem;
+			padding: 1rem 0;
 		}
 	}
 }
 
 // Large devices (desktops, less than 1200px)
 @include media-breakpoint-down(lg) {
+	#main-header {
+		.image-container {
+			margin-left: auto;
+			margin-right: auto;
+
+			img {
+				margin-left: auto;
+				margin-right: auto;
+			}
+		}
+	}
 	#main-navbar {
 		background-image: none;
 		background-color: $dark;
