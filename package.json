@@ -1,0 +1,24 @@
+{
+  "name": "ebook-website",
+  "version": "1.0.0",
+  "description": "Bootstrap 5 landing page (practice)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/resources/css --recursive"
+  },
+  "keywords": [
+    "Bootstrap",
+    "5",
+    "landing",
+    "page",
+    "website",
+    "web",
+    "development"
+  ],
+  "author": "Kenneth G.",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.2",
+    "node-sass": "^9.0.0"
+  }
+}
