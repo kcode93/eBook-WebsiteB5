@@ -30,3 +30,10 @@
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.7);
 }
+
+//include Google Fonts (requires CDN or URL Import)
+@mixin Google-Font($option1) {
+	@if ($option1 == 1) {
+		font-family: 'Open Sans', sans-serif;
+	}
+}
