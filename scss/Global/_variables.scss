@@ -1,7 +1,27 @@
-//Colors
+/** Colors **/
 $primary: #c167ef;
 $secondary: #10bcee;
 $dark: #2b3041;
 $light: #f3f6f9;
 
-//Units of Measure
+/** Units of Measure **/
+
+//Spacers
+$spacer: 1rem !default;
+$spacers: (
+	0: 0,
+	1: $spacer * 0.25,
+	2: $spacer * 0.5,
+	3: $spacer,
+	4: $spacer * 1.5,
+	5: $spacer * 3,
+	6: $spacer * 6,
+	7: $spacer * 8,
+	8: $spacer * 12,
+) !default;
+
+//Line-height
+$line-height-base: 1.7;
+
+//Heading margins
+$headings-margin-bottom: $spacer * 1;
