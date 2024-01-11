@@ -37,3 +37,8 @@
 		font-family: 'Open Sans', sans-serif;
 	}
 }
+
+//KG-BluePrint
+@mixin BluePrint($thickness, $style, $color) {
+	border: $thickness $style $color;
+}

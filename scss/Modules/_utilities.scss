@@ -1,1 +1,4 @@
 //Utility Classes Here
+.blue-print {
+	@include BluePrint(2.5px, dotted, red);
+}

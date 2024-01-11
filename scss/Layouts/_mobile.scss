@@ -2,15 +2,10 @@
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-	#main-header {
-		.image-container {
-			margin-left: auto;
-			margin-right: auto;
-
-			img {
-				margin-left: auto;
-				margin-right: auto;
-			}
+	#icons {
+		.icons-description {
+			margin: 0 0.5rem;
+			padding: 0.5rem 0;
 		}
 	}
 }
@@ -18,20 +13,34 @@
 // Medium devices (tablets, less than 992px)
 @include media-breakpoint-down(md) {
 	#main-header {
-		.image-container {
-			margin-left: auto;
-			margin-right: auto;
+		overflow-x: hidden;
+		.container-xl {
+			padding: 1rem 0;
+			margin: 1rem 0;
+			max-width: 100%;
+			width: 100%;
+		}
 
-			img {
-				margin-left: auto;
-				margin-right: auto;
+		.image-container {
+			//border: 1px solid red;
+			display: flex;
+			justify-content: start;
+			margin: 0 auto;
+			padding-right: 1.2rem;
+
+			img,
+			.img-fluid {
+				//border: 1px solid yellow;
+				padding: 0;
+				margin: 0 auto;
+				align-self: center;
 			}
 		}
 	}
 
 	#icons {
 		.icons-description {
-			margin: 0.5rem 0.5rem;
+			margin: 0 0.5rem;
 			padding: 1rem 0;
 		}
 	}
@@ -39,17 +48,19 @@
 
 // Large devices (desktops, less than 1200px)
 @include media-breakpoint-down(lg) {
-	#main-header {
-		.image-container {
-			margin-left: auto;
-			margin-right: auto;
+	// #main-header {
+	// 	.image-container {
+	// 		margin-left: auto;
+	// 		margin-right: auto;
 
-			img {
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
-	}
+	// 		img {
+	// 			margin-left: auto;
+	// 			margin-right: auto;
+	// 		}
+	// 	}
+
+	//}
+
 	#main-navbar {
 		background-image: none;
 		background-color: $dark;
