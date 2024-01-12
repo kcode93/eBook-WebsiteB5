@@ -2,3 +2,14 @@
 .blue-print {
 	@include BluePrint(2.5px, dotted, red);
 }
+
+.description-modal-btn-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+#DetailsModal1 {
+	.modal-dialog {
+		max-width: 1040px;
+	}
+}
