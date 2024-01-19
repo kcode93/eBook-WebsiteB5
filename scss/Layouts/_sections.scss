@@ -10,3 +10,9 @@
 	background: url(../img/header-background.jpg) center center no-repeat;
 	background-size: cover;
 }
+
+.contact {
+	.form-control {
+		border: 3px solid $secondary;
+	}
+}

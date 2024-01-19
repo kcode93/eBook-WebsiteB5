@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta
+			name="description"
+			content="Bootstrap 5 landing page for ebook website"
+		/>
+		<meta
+			name="keywords"
+			content="Bootstrap 5, ebook, web development, landing page, website"
+		/>
+		<meta name="author" content="Kenneth Garcia" />
+		<!--Google Fonts CDN-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome CDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+			integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!--Custom style sheets-->
+		<link rel="stylesheet" href="./resources/css/main.css" type="text/css" />
+		<title>Blog Mastery | Contact Us</title>
+	</head>
+	<body>
+		<!--Navigation-->
+		<nav id="main-navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="./resources/img/logo.png" alt="Website Logo" width="225" />
+				</a>
+
+				<button
+					class="navbar-toggler d-lg-none"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapsibleNavId"
+					aria-controls="collapsibleNavId"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="collapsibleNavId">
+					<ul class="navbar-nav mt-2 mt-lg-0">
+						<li class="nav-item my-2">
+							<a class="nav-link fw-bold" href="index.html"> Home </a>
+						</li>
+						<li class="nav-item my-2">
+							<a class="nav-link fw-bold" href="#details"> Details </a>
+						</li>
+						<li class="nav-item btn btn-outline-secondary ct-btn px-2 mx-2">
+							<a class="nav-link fw-bold" href="#contact"> Contact Us </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!--Hero Section-->
+		<header id="contact-header">
+			<div class="hero text-white pt-7">
+				<div class="container-xl">
+					<div class="row">
+						<div class="col-12">
+							<h1 class="fw-bold">Contact US</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<svg id="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+				<path
+					fill="#ffffff"
+					fill-opacity="1"
+					d="M0,96L15,101.3C30,107,60,117,90,149.3C120,181,150,235,180,250.7C210,267,240,245,270,208C300,171,330,117,360,85.3C390,53,420,43,450,42.7C480,43,510,53,540,69.3C570,85,600,107,630,144C660,181,690,235,720,218.7C750,203,780,117,810,96C840,75,870,117,900,149.3C930,181,960,203,990,208C1020,213,1050,203,1080,170.7C1110,139,1140,85,1170,69.3C1200,53,1230,75,1260,106.7C1290,139,1320,181,1350,170.7C1380,160,1410,96,1425,64L1440,32L1440,320L1425,320C1410,320,1380,320,1350,320C1320,320,1290,320,1260,320C1230,320,1200,320,1170,320C1140,320,1110,320,1080,320C1050,320,1020,320,990,320C960,320,930,320,900,320C870,320,840,320,810,320C780,320,750,320,720,320C690,320,660,320,630,320C600,320,570,320,540,320C510,320,480,320,450,320C420,320,390,320,360,320C330,320,300,320,270,320C240,320,210,320,180,320C150,320,120,320,90,320C60,320,30,320,15,320L0,320Z"
+				></path>
+			</svg>
+		</header>
+
+		<!--Contact Form-->
+		<section class="contact bg-light-pb-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-container py-4 px-5 my-4 rounded-4 bg-dark">
+							<form>
+								<div class="mb-3 mt-3">
+									<input
+										type="text"
+										placeholder="Name"
+										class="form-control form-control-lg"
+									/>
+								</div>
+
+								<div class="mb-3 mt-3">
+									<input
+										type="email"
+										placeholder="Email"
+										class="form-control form-control-lg"
+									/>
+								</div>
+
+								<div class="mb-3 mt-3">
+									<textarea
+										class="form-control form-control-lg"
+										name="message"
+										cols="30"
+										rows="10"
+										placeholder="Message"
+									></textarea>
+								</div>
+
+								<button
+									type="submit"
+									class="btn btn-secondary w-100 mb-3 py-2 text-white fw-bold fs-6"
+								>
+									Contact Us!
+								</button>
+							</form>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<img
+							class="img-fluid py-5"
+							src="./resources/img/contact-us.svg"
+							alt="Contact us Icon"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Social Media-->
+		<section class="social text-bg-dark py-6 overflow-hidden">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 offset-md-3 text-center fs-4">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Consequatur nesciunt pariatur eaque illum dolores eligendi
+							voluptatem.
+						</p>
+						<div class="social-icons d-flex justify-content-center gap-4">
+							<i class="fab fa-facebook fa-2x"></i>
+							<i class="fab fa-instagram fa-2x"></i>
+							<i class="fab fa-twitter fa-2x"></i>
+							<i class="fab fa-linkedin fa-2x"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Footer-->
+		<footer class="border-top border-primary text-bg-dark py-4">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<ul class="nav">
+							<li class="nav-item">
+								<a href="index.html" class="nav-link link-light">Home</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="#details" class="nav-link link-light">Details</a>
+							</li>
+
+							<li class="nav-item">
+								<a href="contact.html" class="nav-link link-light">Contact</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-md-4">
+						<p class="text-end d-none d-md-block">
+							Copyright &copy; BlogMastery 2024
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!--DetailsModal1-->
+		<div id="DetailsModal1" class="modal fade">
+			<div class="modal-dialog modal-lg mt-7">
+				<div class="modal-content p-5">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="image-container">
+								<img
+									src="./resources/img/description.png"
+									class="img-fluid"
+									alt="Descriptions Picture One"
+								/>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="text-container">
+								<h2
+									id="details-hero"
+									class="display-6 fw-bold align-self-center text-center"
+								>
+									Unlock the Power of bloggin
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+									excepturi nam. Repudiandae cupiditate aperiam quibusdam, eius
+									blanditiis porro similique dolor quo excepturi, dignissimos
+									autem dolores unde quod iste necessitatibus nulla ad magni?
+									Magnam, esse quaerat!
+								</p>
+								<ul class="list-group list-group-flush lh-lg">
+									<li class="list-group-item">
+										<i class="fas fa-square text-secondary"></i>
+										<strong>Blogging Strategies: </strong> Lorem ipsum, dolor
+										sit amet consectetur adipisicing elit. Officia voluptas
+										laborum corrupti maxime fuga libero dolorem, quos eligendi
+										excepturi. Sed laborum adipisci minima quod alias?
+									</li>
+
+									<li class="list-group-item">
+										<i class="fas fa-square text-secondary"></i>
+										<strong>Marketing Campains: </strong> Lorem ipsum, dolor sit
+										amet consectetur adipisicing elit. Officia voluptas laborum
+										corrupti maxime fuga libero dolorem, quos eligendi
+										excepturi. Sed laborum adipisci minima quod alias?
+									</li>
+
+									<li class="list-group-item">
+										<i class="fas fa-square text-secondary"></i>
+										<strong>Business Ideas: </strong> Lorem ipsum, dolor sit
+										amet consectetur adipisicing elit. Officia voluptas laborum
+										corrupti maxime fuga libero dolorem, quos eligendi
+										excepturi. Sed laborum adipisci minima quod alias?
+									</li>
+								</ul>
+								<div class="description-modal-btn-wrap">
+									<a class="btn btn-secondary text-white mb-2 me-2">
+										<i class="fa-solid fa-download"></i> FREE Download
+									</a>
+									<button
+										class="btn btn-light mb-2 ms-2"
+										data-bs-dismiss="modal"
+									>
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--DetailsModal2-->
+		<div id="DetailsModal2" class="modal fade">
+			<div class="modal-dialog modal-lg mt-7">
+				<div class="modal-content p-5">
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="image-container">
+								<img
+									src="./resources/img/author.png"
+									class="img-fluid"
+									alt="Descriptions Author"
+								/>
+							</div>
+						</div>
+
+						<div class="col-lg-6">
+							<div class="text-container">
+								<h2
+									id="details-hero"
+									class="display-6 fw-bold align-self-center text-center"
+								>
+									This is What Jane Doe thinks about Blogs
+								</h2>
+								<p>
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. A,
+									excepturi nam. Repudiandae cupiditate aperiam quibusdam, eius
+									blanditiis porro similique dolor quo excepturi, dignissimos
+									autem dolores unde quod iste necessitatibus nulla ad magni?
+									Magnam, esse quaerat!
+								</p>
+								<ul class="list-group list-group-flush lh-lg">
+									<li class="list-group-item">
+										<i class="fas fa-square text-secondary"></i>
+										<strong>Still a Great Option </strong> Lorem ipsum, dolor
+										sit amet consectetur adipisicing elit. Officia voluptas
+										laborum corrupti maxime fuga libero dolorem, quos eligendi
+										excepturi. Sed laborum adipisci minima quod alias?
+									</li>
+
+									<li class="list-group-item">
+										<i class="fas fa-square text-secondary"></i>
+										<strong>Can Help you Identify Patterns </strong> Lorem
+										ipsum, dolor sit amet consectetur adipisicing elit. Officia
+										voluptas laborum corrupti maxime fuga libero dolorem, quos
+										eligendi excepturi. Sed laborum adipisci minima quod alias?
+									</li>
+
+									<li class="list-group-item">
+										<i class="fas fa-square text-secondary"></i>
+										<strong>Good Resource </strong> Lorem ipsum, dolor sit amet
+										consectetur adipisicing elit. Officia voluptas laborum
+										corrupti maxime fuga libero dolorem, quos eligendi
+										excepturi. Sed laborum adipisci minima quod alias?
+									</li>
+								</ul>
+								<div class="description-modal-btn-wrap">
+									<button
+										class="btn btn-light mb-2 ms-2"
+										data-bs-dismiss="modal"
+									>
+										Close
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Bootstrap JS & Popper JS -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+			integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+			integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+			crossorigin="anonymous"
+		></script>
+		<!-- Custom JS Scripts -->
+		<script src="./resources/js/main.js"></script>
+	</body>
+</html>
